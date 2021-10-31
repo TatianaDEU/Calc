@@ -1,8 +1,8 @@
-//let a = prompt('Vvedite a:', '');
-//let b = prompt('Vvedite b:', '');
-//let method = prompt('Vvedite operaciu(+, -, *, /)');
+let a = +prompt('Vvedite a:', '');
+let b = +prompt('Vvedite b:', '');
+let method = prompt('Vvedite operaciu(+, -, *, /)');
 
-function calc(a, b, method) {
+function calc() {
     if (method == '+') {
         return a + b;
     } else if (method == '-') {
@@ -14,4 +14,4 @@ function calc(a, b, method) {
     }
 }
 
-console.log(calc(2, 3, '*'));
+alert(calc());
